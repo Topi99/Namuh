@@ -10,7 +10,7 @@ from .tasks import order_created
 
 
 class OrderCreate(View):
-	def get(sefl,request):
+	def get(self,request):
 		cart=Cart(request)
 		form=OrderCreateForm()
 		template='orders/order/create.html'

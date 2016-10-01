@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'paypal.standard.ipn',
     'payment',
     
-    
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -163,7 +162,7 @@ EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL=False
 
 # Django-paypal Configuracion
-PAYPAL_RECEIVER_EMAIL = 'rotcehcm@hotmail.com'
+PAYPAL_RECEIVER_EMAIL = 'nokoayzack@gmail.com'
 PAYPAL_TEST = True
 
 # Anadimos la ruta para los archivos media de pillow
